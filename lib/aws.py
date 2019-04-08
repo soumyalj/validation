@@ -28,7 +28,9 @@ PRIVATE_IMAGES = {
     "rancheros-v1.5.1-docker-native": {
         'image': 'ami-00769ca587d8e100c', 'ssh_user': 'rancher'},
     "rhel-7.6-docker-native-113": {
-        'image': 'ami-04b9aacf7e1512c0b', 'ssh_user': 'ec2-user'}}
+        'image': 'ami-04b9aacf7e1512c0b', 'ssh_user': 'ec2-user'},
+    "rhel-7.6-docker-18.09": {
+        'image': 'ami-094574ffb6efb3a9b', 'ssh_user': 'ec2-user'}}
 
 PUBLIC_AMI = {
     'us-east-2': {
